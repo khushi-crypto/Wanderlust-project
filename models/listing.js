@@ -32,6 +32,10 @@ const listingSchema = new Schema({
     ref: "User",
     required: true, // Ensure owner is always present
   },
+  category:{
+    type:String,
+    enum:["mountains","arctic","farms","deserts"],
+  }
 });
 
 // Clean up associated reviews when a listing is deleted

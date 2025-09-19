@@ -1,4 +1,3 @@
-// data.js
 const sampleListings = [
   {
     title: "Cozy Beachfront Cottage",
@@ -130,8 +129,112 @@ const sampleListings = [
     country: "United States",
     reviews: [],
   },
+
+  // 🔥 NEW LISTINGS ADDED BELOW
+  {
+    title: "Luxury Penthouse with Skyline View",
+    description:
+      "Enjoy breathtaking views of the city from this modern penthouse with floor-to-ceiling windows and a private terrace.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 4500,
+    location: "Singapore",
+    country: "Singapore",
+    reviews: [],
+  },
+  {
+    title: "Lakeside A-Frame Cabin",
+    description:
+      "Relax in this stunning A-frame cabin located right on the lake. Perfect for weekend getaways and stargazing.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1600585154084-4e5fe7e0d4d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 2000,
+    location: "Lake Tahoe",
+    country: "United States",
+    reviews: [],
+  },
+  {
+    title: "Minimalist Studio in Tokyo",
+    description:
+      "Experience Japanese minimalism in this cozy studio apartment, ideal for solo travelers or couples.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1551907234-280fa005d6a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 1800,
+    location: "Tokyo",
+    country: "Japan",
+    reviews: [],
+  },
+  {
+    title: "Countryside Farmhouse",
+    description:
+      "Stay in a peaceful farmhouse surrounded by fields and orchards. A great rural escape from the city noise.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1600607688969-2c3b92b0d06f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 900,
+    location: "Punjab",
+    country: "India",
+    reviews: [],
+  },
+  {
+    title: "Snowy Chalet in Swiss Alps",
+    description:
+      "A cozy chalet with a fireplace, perfect for ski trips and hot chocolate evenings with friends.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1600585154364-f0d9b5d64df0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 6000,
+    location: "Zermatt",
+    country: "Switzerland",
+    reviews: [],
+  },
+  {
+    title: "Luxury Houseboat Stay",
+    description:
+      "Experience the charm of Kerala backwaters with a stay on a fully equipped luxury houseboat.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1610620370221-5d10f8917ac8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 3200,
+    location: "Alleppey",
+    country: "India",
+    reviews: [],
+  },
+  {
+    title: "Cliffside Villa with Infinity Pool",
+    description:
+      "This cliffside villa offers breathtaking sunset views and a private infinity pool.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 7000,
+    location: "Bali",
+    country: "Indonesia",
+    reviews: [],
+  },
+  {
+    title: "Traditional Rajasthani Haveli",
+    description:
+      "Live like royalty in this heritage haveli featuring courtyards, jharokhas, and traditional decor.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1602940659805-907f0cc0d2c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 2800,
+    location: "Jaipur",
+    country: "India",
+    reviews: [],
+  },
 ];
 
 module.exports = sampleListings;
-
-

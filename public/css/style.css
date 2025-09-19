@@ -108,6 +108,13 @@ text-decoration: underline;
 
 
 /* show page */
-.show-image{
-    height:30vh;
+/* Show page images */
+.show-img {
+  width: 100%;
+  max-height: 400px; /* limit very tall images */
+  height: auto;
+  object-fit: cover;
+  border-radius: 1rem;
+  display: block;
+  margin: 0 auto;
 }
